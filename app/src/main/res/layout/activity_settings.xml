@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+     tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/IdTextSett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/textHelpSettings"
+            android:textColor="@color/colorBiruze"
+            android:textSize="15pt" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="30dp">
+
+        <Button
+            android:id="@+id/IdButtOneMode"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/TextButtOneMode"
+            android:layout_margin="6dp"/>
+
+        <Button
+            android:id="@+id/IdButtTwoMode"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text = "@string/TextButtTwoMode"
+            android:layout_margin="6dp"/>
+
+        <Button
+            android:id="@+id/IdButtNetwMode"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/TextButtNetwMode"
+            android:layout_margin="6dp"/>
+
+        <Button
+            android:id="@+id/IdButtBtSet"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/TextButtBtSett"
+            android:layout_margin="6dp"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

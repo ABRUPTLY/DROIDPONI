@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+     tools:context=".SettingsActivity2">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:theme="@style/MyRadioButton">
+
+
+        <RadioButton
+            android:id="@+id/IdRBOneMode"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="@string/TextRBOneMode"
+            android:textAlignment="center"
+            android:textColor="@color/colorBiruze"
+            />
+
+        <RadioButton
+            android:id="@+id/IdRBTwoMode"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="@string/TextRBTwoMode"
+            android:textAlignment="center"
+            android:textColor="@color/colorBiruze"
+            />
+
+        <RadioButton
+            android:id="@+id/IdRBNetMode"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="@string/TextRBNetMode"
+            android:textAlignment="center"
+            android:textColor="@color/colorBiruze"
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="280dp">
+
+        <Button
+            android:id="@+id/IdButtBtSet"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/TextButtBtSett"
+            android:layout_margin="6dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/IdTextSett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/textHelpSettings"
+            android:textColor="@color/colorBiruze"
+            android:textSize="15pt" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

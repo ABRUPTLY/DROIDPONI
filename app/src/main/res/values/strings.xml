@@ -1,0 +1,28 @@
+<resources>
+    <!-- описание строковых переменных главного экрана  -->
+    <string name="app_name">Ping Pong</string>
+    <string name="TextButtonClose">закрыть</string>
+    <string name="TextButtonSettings">настройки</string>
+    <string name="TextButtonLangRU">РУС</string>
+    <string name="TextButtonLangEN">АНГ</string>
+    <string name="textHelp">Для запуски игры нажмите старт.</string>
+    <string name="btnStartLang">START</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- описание строковых переменных экрана настроек  -->
+    <string name="TitleSettings">настройки</string>
+    <string name="textHelpSettings">экран настроек</string>
+    <string name="TextButtOneMode">1 ИГРОК</string>
+    <string name="TextButtTwoMode">2 ИГРОКА</string>
+    <string name="TextButtNetwMode">СЕТЕВОЙ</string>
+    <string name="TextButtBtSett">НАСТР. BT</string>
+
+    <!-- описание строковых переменных экрана настроек 2  -->
+    <string name="textHelpRBSettings">экран настроек RB</string>
+    <string name="TextRBOneMode">1 ИГРОК</string>
+    <string name="TextRBTwoMode">2 ИГРОКА</string>
+    <string name="TextRBNetMode">СЕТЕВОЙ</string>
+    <string name="title_activity_game">GameActivity</string>
+    <!--<string name="TextButtBtSett">НАСТР. BT</string> -->
+
+</resources>
